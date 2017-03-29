@@ -19,7 +19,7 @@ using namespace std;
 
 		for (int i = 0; i < arraysize; i++) {
 			hr[i] = 0;
-			min[i] = 0;
+			min[i] = 0; 
 		}
 		
 	}
@@ -326,6 +326,7 @@ using namespace std;
 	void alarm::exitMsg() {
 		printAlarmHeader();
 		cout << "Thank you for using the Simple Alarm Clock program!" << endl;
+		cout << "test" << endl;
 		system("pause");
 	
 	}
